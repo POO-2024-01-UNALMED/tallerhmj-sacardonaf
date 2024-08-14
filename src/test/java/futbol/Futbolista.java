@@ -15,7 +15,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 		this("Maradona",30,"delantero");
 	}
 	
-	public String to_String() {
+	public String toString() {
 		return "El futbolista "+ nombre+ " tiene "+edad+ 
 				", y juega de "+posicion;
 	}
